@@ -1,21 +1,19 @@
 import React from 'react';
 import Routes from '../components/Routes';
+import PhotoGallery from './components/PhotoGallery';
 
 const GallerySection = () => {
   return (
-    <div>
+    <div  class="bg-gradient-to-r from-indigo-950   to-purple-950" >
       <Routes/>
-      <br /><br />
-      Articles (Posted on Medium Direct link access) 
-      <br />
-      ... (Popup Article) Learn More
-      <br /> 
-      <br /> 
-
-      Gallery (Photos Gallery) Refer this: https://nextjsconf-pics.vercel.app/
-      ... (Open Image)
+      
+       
+      <PhotoGallery/>
+      
     </div>
   );
 }
 
 export default GallerySection;
+// Gallery (Photos Gallery) Refer this: https://nextjsconf-pics.vercel.app/
+//       ... (Open Image)
